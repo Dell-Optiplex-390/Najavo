@@ -1,0 +1,18 @@
+<style>
+@media screen and (min-width:600px){.productDisplay{width:100%;display:grid;grid-template-columns:2fr .7fr;grid-template-rows:.3fr 1fr;gap:0 0;padding:5px;grid-auto-flow:row;grid-template-areas:"Image Title""Image Motto"}}@media screen and (max-width:600px){.productDisplay{width:100%;display:grid;grid-template-columns:1fr;grid-template-rows:min-content .7fr 1fr;grid-auto-columns:1fr;gap:0 0;grid-auto-flow:row;grid-template-areas:"Image""Title""Motto"}.Image{grid-area:Image}.Title{grid-area:Title}.Motto{grid-area:Motto}}.Title{grid-area:Title}.Motto{grid-area:Motto}.Image{margin:4px;grid-area:Image}
+</style>
+<section>
+	<h1><u>Home</u></h1>
+	<div class="productDisplay" onclick="location.hash='#npi'">
+    <div class="Title"><h2 style="margin:0;">Najavo Paint It</h2></div>
+    <div class="Motto"><h3 style="margin:0;">Unlock your full potential, Open your ideas, Create a masterpiece - Najavo Paint It</h3></div>
+    <div class="Image"><img alt="Paint It Showcase" src="../../images/software-demos/paint-it/PaintItDemo1.png"></img></div>
+	</div>
+	<hr/>
+	<div class="productDisplay" onclick="location.hash='#najavoos'">
+    <div class="Title"><h2 style="margin:0;">Najavo OS</h2></div>
+    <div class="Motto"><h3 style="margin:0;">Productivity blah some random ad text</h3></div>
+    <div class="Image"><img alt="NajavoOS Showcase" src="../../images/software-demos/NajavoOS/Template.png"></img></div>
+	</div>
+</section>
+<script src="../../js/singlepage.js"></script>
